@@ -64,7 +64,7 @@ h4 {
 }
 
 .fest {
-  font-size: 22px;
+  font-size: 20px;
   color: yellow;
 }
 
@@ -73,7 +73,7 @@ h4 {
 }
 
 .description {
-  margin-top: 500px;
+  margin-top: 100px;
 }
 
 
@@ -99,4 +99,25 @@ h4 {
 /* Apply this to all .row elements to create breathing room.*/
 .spacer {
   margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+  h4 {
+    font-size: 20px;
+  }
+
+  .movie-circle {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+}
+
+.fest {
+  font-size: 18px;
+}
+
+.description {
+  font-size: 10px;
+  margin-top: 0px;
+}
 }
