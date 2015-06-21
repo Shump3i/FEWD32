@@ -59,13 +59,16 @@ body {
   text-align: center;
 }
 
-h4 {
+h3 {
   color: white;
+  margin-top: 25px;
 }
 
 .fest {
-  font-size: 20px;
+  font-size: 18px;
   color: yellow;
+  margin-top: 20px;
+  font-family: arial black;
 }
 
 .pic {
@@ -102,7 +105,7 @@ h4 {
 }
 
 @media (max-width: 500px) {
-  h4 {
+  h3 {
     font-size: 20px;
   }
 
